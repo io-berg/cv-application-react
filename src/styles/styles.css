@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 4rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* COLORS */
+.bg-black {
+  background-color: #000;
+}
+
+.fg-white {
+  color: #fff;
+}
